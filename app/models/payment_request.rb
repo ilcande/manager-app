@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PaymentRequest
   KEY = "payment_request"
   STORE_LIMIT = 10
