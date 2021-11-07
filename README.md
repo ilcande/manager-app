@@ -30,7 +30,7 @@ We need 3 terminal windows open, in one lift up RabbitMQ server
 
 In the second one we need to action the work method that allow us to retrieve data
 ```
-WORKERS=RestaurantsWorker bundle exec rake sneakers:run
+WORKERS=PaymentRequestsWorker bundle exec rake sneakers:run
 rake rabbitmq:setup
 ```
 Make sure you browse to http://localhost:15672/ and click on Exchange tab, `display.payment_requests`
